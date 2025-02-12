@@ -20,13 +20,17 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@fastify/swagger": "^9.4.2",
     "@graphql-yoga/nestjs": "*",
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/graphql": "^13.0.2",
-    "@nestjs/platform-express": "^11.0.1",
+    "@nestjs/mercurius": "^13.0.2",
+    "@nestjs/platform-fastify": "^11.0.9",
     "@nestjs/swagger": "^11.0.3",
+    "fastify": "^5.2.1",
     "graphql": "^16.10.0",
+    "mercurius": "^16.0.1",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
     "swagger-ui-express": "^5.0.1"
